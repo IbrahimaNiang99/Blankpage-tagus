@@ -10,7 +10,6 @@ import { ResetPasswordComponent } from './components/authentication/reset-passwo
 import { SigninSignupComponent } from './components/authentication/signin-signup/signin-signup.component';
 import { InternalErrorComponent } from './components/common/internal-error/internal-error.component';
 import { NotFoundComponent } from './components/common/not-found/not-found.component';
-import { AnalyticsCustomersComponent } from './components/pages/analytics-customers/analytics-customers.component';
 import { BlankPageComponent } from './components/pages/blank-page/blank-page.component';
 import { MenusComponent } from './components/ui-kit/menus/menus.component';
 import { ProgressBarComponent } from './components/ui-kit/progress-bar/progress-bar.component';
@@ -19,7 +18,6 @@ import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.
 
 const routes: Routes = [
     {path: '', component: BlankPageComponent},
-    {path: 'analytics/customers', component: AnalyticsCustomersComponent},
     {path: 'ui-kit/menus', component: MenusComponent},
     {path: 'ui-kit/progress-bar', component: ProgressBarComponent},
     {path: 'ui-kit/sidenav', component: SidenavComponent},

@@ -59,9 +59,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './components/common/sidebar/sidebar.component';
 import { FooterComponent } from './components/common/footer/footer.component';
 import { HeaderComponent } from './components/common/header/header.component';
-import { AnalyticsCustomersComponent } from './components/pages/analytics-customers/analytics-customers.component';
-import { AcAudienceOverviewComponent } from './components/pages/analytics-customers/ac-audience-overview/ac-audience-overview.component';
-import { AcStatusComponent } from './components/pages/analytics-customers/ac-status/ac-status.component';
 import { MenusComponent } from './components/ui-kit/menus/menus.component';
 import { ProgressBarComponent } from './components/ui-kit/progress-bar/progress-bar.component';
 import { SidenavComponent } from './components/ui-kit/sidenav/sidenav.component';
@@ -85,9 +82,6 @@ import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.
         SidebarComponent,
         FooterComponent,
         HeaderComponent,
-        AnalyticsCustomersComponent,
-        AcAudienceOverviewComponent,
-        AcStatusComponent,
         MenusComponent,
         ProgressBarComponent,
         SidenavComponent,
